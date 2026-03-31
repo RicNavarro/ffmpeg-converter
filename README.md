@@ -25,13 +25,6 @@ Technically, **FFmpeg Converter** is a native desktop application that wraps FFm
 
 ---
 
-## Screenshot
-
-> _Add a screenshot of the application window here._
-> `![FFmpeg Converter UI](docs/screenshot.png)`
-
----
-
 ## Compatibility
 
 This project was developed and tested on **Pop!OS 22.04** and **Ubuntu 22.04 LTS**. Any Debian-based distribution that provides Qt6 via `apt` should work without changes.
