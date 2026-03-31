@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=FFmpeg Converter
+GenericName=Media Converter
+Comment=Convert audio and video files using FFmpeg
+Exec=FFmpegWrapper %f
+Icon=ffmpeg-converter
+Terminal=false
+Categories=AudioVideo;Video;Audio;Conversion;GTK;
+MimeType=video/mp4;video/x-matroska;video/webm;video/avi;video/quicktime;video/x-msvideo;audio/mpeg;audio/flac;audio/ogg;audio/wav;audio/aac;
+Keywords=ffmpeg;convert;video;audio;media;encoder;
+StartupNotify=true
+StartupWMClass=FFmpegWrapper

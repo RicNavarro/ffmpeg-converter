@@ -1,0 +1,42 @@
+// app.rc — Windows resource file
+// Embeds version info and icon into the .exe
+
+#include <windows.h>
+
+// -----------------------------------------------------------------------
+// Application icon
+// Provide a 256x256 ICO file at resources/icons/app.ico
+// -----------------------------------------------------------------------
+IDI_ICON1 ICON "resources/icons/app.ico"
+
+// -----------------------------------------------------------------------
+// Version information block (shown in Windows file Properties)
+// -----------------------------------------------------------------------
+VS_VERSION_INFO VERSIONINFO
+  FILEVERSION     1,0,0,0
+  PRODUCTVERSION  1,0,0,0
+  FILEFLAGSMASK   0x3fL
+  FILEFLAGS       0x0L
+  FILEOS          VOS__WINDOWS32
+  FILETYPE        VFT_APP
+  FILESUBTYPE     VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName",      "FFmpegWrapper\0"
+            VALUE "FileDescription",  "FFmpeg Converter\0"
+            VALUE "FileVersion",      "1.0.0.0\0"
+            VALUE "InternalName",     "FFmpegWrapper\0"
+            VALUE "LegalCopyright",   "Open Source\0"
+            VALUE "OriginalFilename", "FFmpegWrapper.exe\0"
+            VALUE "ProductName",      "FFmpeg Converter\0"
+            VALUE "ProductVersion",   "1.0.0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END

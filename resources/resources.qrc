@@ -1,0 +1,7 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+  <qresource prefix="/icons">
+    <!-- Place your app.ico and any toolbar icons here -->
+    <!-- <file>icons/app.ico</file> -->
+  </qresource>
+</RCC>
