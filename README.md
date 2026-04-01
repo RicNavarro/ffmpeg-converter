@@ -81,25 +81,6 @@ pkg-config --modversion Qt6Core  # 6.x.x
 
 ---
 
-## Icons
-
-The application icons are already included in this repository at [`linux/icons/`](linux/icons/):
-
-| File | Size | Used for |
-|---|---|---|
-| [`ffmpeg-converter-256.png`](linux/icons/ffmpeg-converter-256.png) | 256×256 | App launcher, `.desktop` entry |
-| [`ffmpeg-converter-128.png`](linux/icons/ffmpeg-converter-128.png) | 128×128 | Taskbar, smaller contexts |
-
-<p>
-  <img src="linux/icons/ffmpeg-converter-128.png" width="64" alt="128px icon"/>
-  &nbsp;&nbsp;
-  <img src="linux/icons/ffmpeg-converter-256.png" width="64" alt="256px icon"/>
-</p>
-
-No action needed — the build script picks them up automatically from that path.
-
----
-
 ## Building
 
 Clone the repository or download the source zip from the [Releases](#releases) tab.
