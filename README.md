@@ -245,7 +245,7 @@ ffmpeg-converter/
 ├── deploy-linux.sh                       — Linux build + .deb packaging script
 ├── deploy.ps1                            — Windows build + NSIS installer script
 └── installer/
-    ├── installer.nsi                     — NSIS installer script (Windows)
+    ├── installer.nsi                     — NSIS installer script (Windows) (WIP)
     └── generate-welcome-bmp.ps1          — generates the wizard sidebar image
 ```
 
